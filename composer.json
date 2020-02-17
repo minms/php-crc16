@@ -1,0 +1,22 @@
+{
+  "name": "minms/crc16",
+  "type": "library",
+  "description": "the crc verify library",
+  "require": {
+    "php": ">7.0"
+  },
+  "authors": [
+    {
+      "name": "minms",
+      "email": "master@minms.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Minms\\Crc16\\": "src/"
+    },
+    "files": [
+      "src/Functions.php"
+    ]
+  }
+}
